@@ -6,6 +6,7 @@ propid = '[PROPID]'
 
 from imred import imred
 from specred import specred
+from mosred import mosred
 
 
 ddir = sys.argv[1]
@@ -24,7 +25,7 @@ specred(infile_list, propid, inter=True)
 
 #UNEDIT IF YOU WANT TO REDUCE MOS DATA
 #mosxml = [MOSXMLFILE]
-#mosred = infile_list, propid, mosxml, inter=True)
+#mosred(infile_list, propid, mosxml, inter=True)
 
 
 
