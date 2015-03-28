@@ -42,7 +42,7 @@ def mosred(infile_list, slitmask,propcode=None, dy=0, inter=True, guesstype='rss
         specslit(image=infile_list[i], outimage='', outpref='s', exttype='rsmt', slitfile=slitmask, 
                  outputslitfile='', regprefix='ds_', sections=3, width=25.0, sigma=2.2, thres=6.0, order=1, padding=5, yoffset=dy, 
                  inter=False, clobber=True, logfile=logfile, verbose=True)
-    print "hey!"
+    
     for i in range(len(infile_list)):
            if obs_dict['OBJECT'][i].upper().strip()=='ARC' and obs_dict['PROPID'][i].upper().strip()==propcode:
                lamp=obs_dict['LAMPID'][i].strip().replace(' ', '')
