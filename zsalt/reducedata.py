@@ -25,7 +25,7 @@ specred(infile_list, propid, inter=True)
 
 #UNEDIT IF YOU WANT TO REDUCE MOS DATA
 #mosxml = [MOSXMLFILE]
-#mosred(infile_list, propid, mosxml, inter=True)
+#mosred(infile_list, mosxml, inter=True)
 
 
 
